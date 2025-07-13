@@ -25,6 +25,7 @@ class IndexedDBService {
 
       request.onupgradeneeded = (event) => {
         const db = event.target.result;
+        const transaction = event.target.transaction || db.transaction;
 
         // Bills store
         if (!db.objectStoreNames.contains('bills')) {
@@ -51,7 +52,7 @@ class IndexedDBService {
         }
 
         // Initialize with default data
-        this.initializeDefaultData(event.transaction);
+        this.initializeDefaultData(transaction);
       };
     });
   }
