@@ -1,0 +1,13 @@
+{
+  "name": "QuickBill Pro - Offline Billing",
+  "short_name": "QuickBill Pro",
+  "description": "Offline billing application for shopkeepers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait-primary",
+  "categories": ["business", "productivity"],
+  "scope": "/",
+  "prefer_related_applications": false
+}
