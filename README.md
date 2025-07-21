@@ -53,7 +53,7 @@ npm run build
    - Output directory: `dist`
 
 4. **Your app will be live at `https://your-project-name.vercel.app`**
-
+https://quikbill.vercel.app/
 ---
 
 ## Tech Stack
